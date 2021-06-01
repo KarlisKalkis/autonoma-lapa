@@ -9,8 +9,13 @@ def index():
 
 
 @app.route('/about')
-def about():
-    return render_template("about.html")
+def par():
+    return render_template("par.html")
+    
+
+@app.route('/chauffeur')
+def chauffeur():
+    return render_template("chauffeur.html")
 
 
 
