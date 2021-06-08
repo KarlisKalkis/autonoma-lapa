@@ -20,7 +20,7 @@ html {
 	top: -450px;
 }
 .menu li a {
-	color:#ffffff;
+	color:orange;
 	font-size:24px;
 	text-decoration:none;
 }
@@ -38,8 +38,8 @@ html {
 body  {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
-	background:#000000;
-	color: #ffffff;
+	background:black;
+	color: orange;
 }
 .logoBackground {
 	background:#000000;
@@ -71,7 +71,7 @@ h1 {
 p {
 	text-align: left;
 	font-size: 14px;
-	color: wheat;
+	color: #ff9c00;
 	top: -300px;
 	position: relative;
 }
@@ -99,21 +99,21 @@ input#vards {
 	height: 30px;
 	width: 200px;
 	font-size: 14px;
-	border: solid 2px #ffffff;
+	border: solid 2px orange;
 }
 
 input#auto {
 	height: 30px;
 	width: 200px;
 	font-size: 14px;
-	border: solid 2px #ffffff;
+	border: solid 2px orange;
 }
 
 input#atsauksme {
 	height: 30px;
 	width: 200px;
 	font-size: 14px;
-	border: solid 2px #ffffff;
+	border: solid 2px orange;
 }
 
 #Uzlecosais_logs {
@@ -130,10 +130,10 @@ input#atsauksme {
 }
 
 #form {
-    background-color: cornsilk;
+    background-color: black;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid orange;
     width: 25%;
 }
 
@@ -141,6 +141,6 @@ input#atsauksme {
     font-size: 20px;
     height: 30px;
     width: 150px;
-    border: solid 2px #ffffff;
+    border: solid 2px orange;
     border-radius: 15px;
 }

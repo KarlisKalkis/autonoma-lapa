@@ -20,7 +20,7 @@ html {
 	top: -450px;
 }
 .menu li a {
-	color:#ffffff;
+	color:orange;
 	font-size:24px;
 	text-decoration:none;
 }
@@ -39,7 +39,7 @@ body  {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
 	background:#000000;
-	color: #ffffff;
+	color: orange;
 }
 .logoBackground {
 	background:#000000;
@@ -65,12 +65,12 @@ table {
     position: relative;
   }
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid orange;
     text-align: center;
     padding: 8px;
   }
 tr:nth-child(even) {
-    background-color: black;
+    background-color: orange;
   }
 h1 {
     position: relative;
@@ -83,7 +83,7 @@ p {
     position: relative;
     top: -300px;
     text-align: left;
-    color: white;
+    color: orange;
     text-decoration: none;
     font-size: 18px;
 

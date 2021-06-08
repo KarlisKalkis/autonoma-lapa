@@ -5,7 +5,7 @@
 body  {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
-	background-color:#ffffff ;
+	background-color:#000000 ;
 
 }
 a {
@@ -23,7 +23,7 @@ a:hover {
 	width:100%; 
 }
 .logoBackground {
-	background:#ffffff;
+	background:#000000;
 	width:300px;
 }
 .logo {
@@ -42,7 +42,7 @@ a:hover {
 	background:url(images/menuBackground.png) repeat-x left top;
 	height:103px;
 	text-align:center;
-	
+
 }
 .menu ul {
 	margin:0;
