@@ -16,7 +16,7 @@ html {
 	list-style:none;
 	display:inline;
 	padding:20px 15px 0 15px;
-	position: relative;
+	position: absolute;
 	top: -450px;
 }
 .menu li a {
@@ -61,7 +61,7 @@ body  {
 
 
 h1 {
-	position: relative;
+	position: absolute;
     top: -300px;
     color: #ff9c00;
     text-decoration: none;
@@ -73,7 +73,7 @@ p {
 	font-size: 14px;
 	color: #ff9c00;
 	top: -300px;
-	position: relative;
+	position: absolute;
 }
 #pievienot {
 	display: flex;
@@ -88,7 +88,7 @@ p {
 	width: 200px;
 	height: 25px;
 	font-size: 14px;
-	position: relative;
+	position: absolute;
 	text-align: left;
 	top: -400px;
 	right: -400px;
@@ -118,7 +118,7 @@ input#atsauksme {
 
 #Uzlecosais_logs {
 	display: none;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     left: 0;
     top: 0;

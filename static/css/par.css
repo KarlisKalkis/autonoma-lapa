@@ -16,7 +16,7 @@ html {
 	list-style:none;
 	display:inline;
 	padding:20px 15px 0 15px;
-	position: relative;
+	position: absolute;
 	top: -450px;
 }
 .menu li a {
@@ -62,7 +62,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     top: -300px;
-    position: relative;
+    position: absolute;
   }
 td, th {
     border: 1px solid orange;
@@ -73,14 +73,14 @@ tr:nth-child(even) {
     background-color: orange;
   }
 h1 {
-    position: relative;
+    position: absolute;
     top: -300px;
     color: #ff9c00;
     text-decoration: underline;
     text-align: left;
 }
 p {
-    position: relative;
+    position: absolute;
     top: -300px;
     text-align: left;
     color: orange;
@@ -89,7 +89,7 @@ p {
 
 }
 h2{
-    position: relative;
+    position: absolute;
     top: -300px;
     font-size: 25px;
     color: #ff9c00;
@@ -97,7 +97,7 @@ h2{
 }
 
 h3{
-    position: relative;
+    position: absolute;
     top: -300px;
     font-size: 25px;
     color: #ff9c00;

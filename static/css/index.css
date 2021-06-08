@@ -12,7 +12,7 @@ a {
 	color:#ff9c00;
 	text-decoration:underline;
 	top: -200px;
-	position: relative;
+	position: absolute;
 
 }
 a:hover {
@@ -54,7 +54,7 @@ a:hover {
 	list-style:none;
 	display:inline;
 	padding:20px 15px 0 15px;
-	position: relative;
+	position: absolute;
 	top: 80px;
 }
 .menu li a {
@@ -91,7 +91,7 @@ a:hover {
 	padding:30px 0;
 } 
 .fons {
-	position: relative;
+	position: absolute;
 	right: -250px;
 	top: 25px;
 	border: none;

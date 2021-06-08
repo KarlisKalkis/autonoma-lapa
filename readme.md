@@ -1,6 +1,4 @@
-#flask template
-#Kārlis Kaļķis
-#DP1-4
+
 
 saite uz figmu
 
