@@ -5,7 +5,7 @@
 body  {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
-	background-color:#000000 ;
+	background-color:#ffffff ;
 
 }
 a {
@@ -23,7 +23,7 @@ a:hover {
 	width:100%; 
 }
 .logoBackground {
-	background:#000000;
+	background:#ffffff;
 	width:300px;
 }
 .logo {

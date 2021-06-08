@@ -99,21 +99,21 @@ input#vards {
 	height: 30px;
 	width: 200px;
 	font-size: 14px;
-	border: solid 2px black;
+	border: solid 2px #ffffff;
 }
 
 input#auto {
 	height: 30px;
 	width: 200px;
 	font-size: 14px;
-	border: solid 2px black;
+	border: solid 2px #ffffff;
 }
 
 input#atsauksme {
 	height: 30px;
 	width: 200px;
 	font-size: 14px;
-	border: solid 2px black;
+	border: solid 2px #ffffff;
 }
 
 #Uzlecosais_logs {
@@ -141,6 +141,6 @@ input#atsauksme {
     font-size: 20px;
     height: 30px;
     width: 150px;
-    border: solid 2px black;
+    border: solid 2px #ffffff;
     border-radius: 15px;
 }
