@@ -26,8 +26,8 @@ def chauffer():
 
 @app.route('/rezervet')
 def rezervet():
-  return render_template("book.html")
-@app.route('/book')
+  return render_template("rezervet.html")
+@app.route('/klienti')
 def book():
     return render_template("klienti.html")
 
@@ -35,5 +35,8 @@ def book():
 def atgriezt():
   return render_template("atgriezt.html")  
 
+@app.route('/atsauksmes')
+def atsauksmes():
+  return render_template("atsauksmes.html")
     
 app.run(host='0.0.0.0', port=8080)
