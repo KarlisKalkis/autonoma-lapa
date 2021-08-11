@@ -36,7 +36,7 @@ html {
 	
 }
 body  {
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	font-size:12px;
 	background:#000000;
 	color: orange;
@@ -58,7 +58,7 @@ body  {
 	color:#707070;
 }
 table {
-    font-family: arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     border-collapse: collapse;
     width: 100%;
     top: -300px;

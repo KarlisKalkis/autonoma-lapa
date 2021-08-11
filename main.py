@@ -5,12 +5,8 @@ app = Flask('app')
 @app.route('/')
 def index():
     return render_template("index.html")
-  
-@app.route('/par')
-def par():
-    return render_template("par.html")
 
-@app.route('/about')
+@app.route('/par')
 def about():
   return render_template("par.html")
 
