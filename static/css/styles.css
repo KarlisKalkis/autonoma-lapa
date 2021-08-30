@@ -1,0 +1,66 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+}
+
+:root{
+  --main-color: #fe5b3d;
+  --second-color: #ffac38;
+  --text-color: #444;
+  --gradient: linear-gradinet(#fe5b3d #ffac38);
+
+}
+
+/* Costumized scroolbar */
+html::-webkit-scrollbar{
+  width: 0.5rem;
+}
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+  background: var(--main-color);
+  border-radius: 5rem
+}
+section{
+  padding: 50px 100px;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: whitesmoke;
+  padding: 15px 100px;
+}
+
+/* Logo sizing */
+.logo img{
+  width: 50px;
+}
+
+/* Navigation bar */
+.navigation-bar {
+    display: flex;
+}
+.navigation-bar li{
+    position: relative;
+}
+.navigation-bar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
