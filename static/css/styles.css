@@ -64,3 +64,87 @@ header{
     color: var(--text-color);
     font-weight: 500;
 }
+
+
+/* menu icons */
+#menu-icon{
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 10000;
+  display: none;
+}
+
+/* Header Buttons
+Sign in and Sign on*/
+.headerButton{
+  padding: 10px 20px;
+  color: var(--text-color);
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.headerButton .sign-in {
+  background: blue;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.headerButton .sign-in:hover{
+  background: var(--main-color);
+}
+
+/* Home screen and background */
+.home-screen {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: url(static/img/background.jpg);
+  background-position: center right;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+/*texts*/
+.h1 {
+  font-size:  70px;
+  letter-spacing: 2px;
+
+}
+
+.text span {
+  color: var(--main-color);
+}
+
+.text p{
+  margin: 0;
+}
+
+/* App store images*/
+
+.app-stores p{
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.app-stores img{
+  width: 100px;
+  margin-right: 1rem;
+  cursor: pointer;
+
+}
+
+.container form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  position: absolute;
+  bottom: 7rem;
+  left: 50px;
+  background: white;
+  padding: 20px;
+  border-radius: 0.5rem;
+}
