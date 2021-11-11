@@ -148,3 +148,11 @@ Sign in and Sign on*/
   padding: 20px;
   border-radius: 0.5rem;
 }
+
+.h2{
+  font-size: 45px;
+  letter-spacing: 3px;
+  top: 90px;
+  position: relative;
+
+} 

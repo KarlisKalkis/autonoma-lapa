@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZZ Autonoma</title>
+  <link rel="stylesheet" href="static/css/styles.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <!--Header-->
+  <header>
+  <a href="#" class="logo"><img src="static/img/jeep.png" alt=""></a>
+
+  <div class="bx bx-menu" id="menu-icon"></div>
+
+  <!--Navigation bar -->
+  <ul class="navigation-bar">
+    <li><a href="home">Home</a></li>
+    <li><a href="reviews">Ride</a></li>
+    <li><a href="services">Services</a></li>
+    <li><a href="about">About</a></li>
+    <li><a href="reviews">Reviews</a></li>
+  </ul>
+  <div class="header-btn">
+    <a href="#" class="sign-up">Sign Up</a>
+    <a href="#" class="sign-in">Sign in</a>
+  </div>
+  </header>
+  
+  <div class="leftContent">
+    <b><form action="registercar.js" method="post" >
+	<h1> Pievienot Automašīnu </h1>
+	Licences Nr: <input type="text" name="lno"/><br><br>
+	Modelis: <input type="text" name="model"/><br><br>
+	Gads : <input type="text" name="year"/><br><br>
+	Automašīnas tips: <select name = "Cartype">
+<option>Kompakts</option>
+<option>Vidējs</option>
+<option>Liels</option>
+<option>Džips</option>
+<option>Busiņš</option>
+<option>Smagā mašīna</option>
+<h2>Ievadiet detalizētu informāciju par īpašnieku : </h2><br>
+Personas kods: <input type="text" name="uid"/><br><br>
+Vārds: <input type="text" name="oname"/><br><br>
+Pilsēta : <input type="text" name="city"/><br><br>
+<input type="submit" name="submit" value="Register">
+</form></b>	
+    </div>	
+	
+	
+	<div class="rightContent">
+	<h1> SKATĪT AUTO UN LIKMES</h1>
+	<form action="viewcar.js" method="post">
+		Lai skatītu, atlasiet Automašīnas tips: <select name="Ctype">
+<option>Kompakts</option>
+<option>Vidējs</option>
+<option>Liels</option>
+<option>Džips</option>
+<option>Busiņš</option>
+<option>Smagā mašīna</option>
+</select>
+<input type="submit" name="submit1" value="View">
+</form>
+
+<br><br><br><br>
+
+<h1> 
+	ATJAUNINĀT NOMAS LIKMES </h1>
+<form action="update.js" method="post">
+	Lai atjauninātu, atlasiet Automašīnas tips: <select name = "Ctype">
+<option>Kompakts</option>
+<option>Vidējs</option>
+<option>Liels</option>
+<option>Džips</option>
+<option>Busiņš</option>
+<option>Smagā mašīna</option>
+</select><br><br>
+
+Dienas likme: <input type="text" name="udrate"/><br><br>
+Nedēļas likme: <input type="text" name="uwrate"/><br><br>
+<input type="submit" name="submit1" value="Update">
+</form>
+	</div>
+	
+	</body>
+	</html>
+  
