@@ -17,11 +17,11 @@ def ride():
 
 @app.route('/par')
 def par():
-  return render_template("par.html")
+  return render_template("about.html")
 
 @app.route('/about')
 def about():
-  return render_template("par.html")
+  return render_template("about.html")
 
 
 
