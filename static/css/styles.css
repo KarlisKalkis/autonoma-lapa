@@ -98,13 +98,14 @@ Sign in and Sign on*/
   width: 100%;
   min-height: 100vh;
   position: relative;
-  background: url(static/img/background.jpg);
   background-position: center right;
   background-size: cover;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
 }
+
+
 
 
 /*texts index page*/
@@ -171,8 +172,17 @@ about-screen h3{
 
 }
 
-/* Ride page */
-.leftContent h1{
-  
 
+
+
+/* Ride page */
+
+
+/*About page*/
+
+about-page.img {
+  position: relative;
+  top: 60px;
+  left: 100px;
 }
+
