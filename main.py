@@ -24,42 +24,29 @@ def about():
   return render_template("about.html")
 
 
-
-@app.route('/klienti')
-def klienti():
-    return render_template("klienti.html")
-@app.route('/clients')
-def clients():
-    return render_template("klienti.html")
-
-@app.route('/soferis')
-def soferis():
-  return render_template("soferis.html")
-@app.route('/chauffer')
-def chauffer():
-    return render_template("klienti.html")
-
-@app.route('/rezervet')
-def rezervet():
-  return render_template("rezervet.html")
-@app.route('/klienti')
-def book():
-    return render_template("klienti.html")
-
-@app.route('/atgriezt')
-def atgriezt():
-  return render_template("atgriezt.html")  
-
 @app.route('/atsauksmes')
 def atsauksmes():
-  return render_template("atsauksmes.html")
+  return render_template("reviews.html")
+
+@app.route('/reviews')
+def reviews():
+  return render_template("reviews.html")
+
+@app.route('/brauksana')
+def brauksana():
+  return render_template("ride.html")
 
 @app.route('/services')
 def services():
   return render_template("services.html")
 
-@app.route('/reviews')
-def reviews():
-  return render_template("reviews.html")
+@app.route('/piedavajumi')
+def piedavajumi():
+  return render_template("services.html")
+
+
+
+
+
     
 app.run(host='0.0.0.0', port=8080)

@@ -11,13 +11,6 @@
   font-family: 'Bebas Neue', cursive;
 }
 
-:root{
-  --main-color: #fe5b3d;
-  --second-color: #ffac38;
-  --text-color: #444;
-  --gradient: linear-gradinet(#fe5b3d #ffac38);
-
-}
 
 /* Costumized scroolbar */
 html::-webkit-scrollbar{
@@ -112,11 +105,8 @@ Sign in and Sign on*/
 .h1 {
   font-size:  70px;
   letter-spacing: 2px;
+  color: black;
 
-}
-
-.text span {
-  color: var(--main-color);
 }
 
 .text p{
@@ -166,7 +156,7 @@ Sign in and Sign on*/
 
 about-screen h3{
   font-size: 40px;
-  left: 0px;
+  left: 20px;
   position: relative;
   top: -10px;
 
@@ -177,6 +167,16 @@ about-screen h3{
 
 /* Ride page */
 
+leftContent{
+  font-size: 13px;
+  color: black;
+  align-items: center;
+  position: relative;
+  left: 50%; 
+  top: 60px;
+}
+
+
 
 /*About page*/
 
@@ -186,3 +186,92 @@ about-page.img {
   left: 100px;
 }
 
+/* service page */
+
+service-screen{
+  font-size: 13px;
+  color: black;
+  align-items: left;
+  position: relative;
+  left: 80px;
+  top: 30px;
+}
+
+
+
+
+/* review */
+reputation{
+  align-items: center;
+
+}
+
+#add {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#newReview {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 25px;
+	font-size: 14px;
+	position: relative;
+	text-align: left;
+	top: -400px;
+	right: -400px;
+
+}
+
+input#name {
+	height: 30px;
+	width: 200px;
+	font-size: 14px;
+	border: solid 2px black;
+}
+
+input#auto {
+	height: 30px;
+	width: 200px;
+	font-size: 14px;
+	border: solid 2px black;
+}
+
+input#review {
+	height: 30px;
+	width: 200px;
+	font-size: 14px;
+	border: solid 2px black;
+}
+
+#pop-up {
+	display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff9c00;
+    font-size: 14px;
+
+}
+
+#form {
+    background-color: cornsilk;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 25%;
+}
+
+#addReview {
+    font-size: 20px;
+    height: 30px;
+    width: 150px;
+    border: solid 2px black;
+    border-radius: 15px;
+}
