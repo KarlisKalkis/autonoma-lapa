@@ -113,6 +113,13 @@ Sign in and Sign on*/
   margin: 0;
 }
 
+/* Index foto */
+index-page.img {
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+
 /* App store images in index page*/
 
 .app-stores p{
@@ -151,7 +158,7 @@ Sign in and Sign on*/
 .h3{
   height: 50px;
   width: 100%;
-  color: #ffac38
+  color: black;
 }
 
 about-screen h3{
@@ -197,68 +204,67 @@ service-screen{
   top: 30px;
 }
 
+/* Review page */
 
-
-
-/* review */
-reputation{
+#button {
+  justify-content: center;
+  display: flex;
   align-items: center;
-
 }
 
-#add {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+#newReview{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  
 }
 
-#newReview {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 200px;
-	height: 25px;
-	font-size: 14px;
-	position: relative;
-	text-align: left;
-	top: -400px;
-	right: -400px;
-
+input#rented-car {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border: solid 2px black;
 }
 
-input#name {
-	height: 30px;
-	width: 200px;
-	font-size: 14px;
-	border: solid 2px black;
+input#persons-name {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border: solid 2px black;
 }
 
-input#auto {
-	height: 30px;
-	width: 200px;
-	font-size: 14px;
-	border: solid 2px black;
+input#persons-review {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border: solid 2px black;
 }
 
-input#review {
-	height: 30px;
-	width: 200px;
-	font-size: 14px;
-	border: solid 2px black;
+#addReview {
+    font-size: 20px;
+    height: 30px;
+    width: 150px;
+    border: solid 2px black;
+    border-radius: 15px;
 }
 
-#pop-up {
-	display: none;
+#popUp {
+    display: none;
     position: fixed;
     z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #ff9c00;
-    font-size: 14px;
-
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 30px;
 }
+
+
 
 #form {
     background-color: cornsilk;
@@ -268,10 +274,29 @@ input#review {
     width: 25%;
 }
 
-#addReview {
-    font-size: 20px;
-    height: 30px;
-    width: 150px;
-    border: solid 2px black;
+#webReviews {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
     border-radius: 15px;
+    height: 200px;
+    width: 150px;
+    padding: 15px;
+    margin: 20px;
+    background-color: darkkhaki;
+}
+
+/* Service page */
+.information {
+  position: fixed;
+  margin: 50px;
+  text-align: left;
+
 }
