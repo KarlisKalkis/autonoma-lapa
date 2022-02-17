@@ -44,6 +44,10 @@ def services():
 def piedavajumi():
   return render_template("services.html")
 
+@app.route('/signin')
+def signin():
+  return render_template("sign.html")
+
 
 
 

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ZZ CAR RENTAL</title>
+	<link rel="stylesheet" href="static/css/styles.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+	<!--Header-->
+	<header>
+		<a href="#" class="logo"><img src="static/img/jeep.png" alt=""></a>
+
+  <div class="bx bx-menu" id="menu-icon"></div>
+
+  <!--Navigation bar -->
+  <ul class="navigation-bar">
+    <li id="active"><a href="home">Home</a></li>
+    <li><a href="ride">Ride</a></li>
+    <li><a href="services">Services</a></li>
+    <li><a href="about">About</a></li>
+    <li><a href="reviews">Reviews</a></li>
+  </ul>
+  <div class="header-btn">
+    <a href="" class="sign-up">Sign Up</a>
+  </div>
+  </header>
+
+
+ <form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+             <br>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
